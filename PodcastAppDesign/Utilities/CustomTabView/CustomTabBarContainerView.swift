@@ -18,10 +18,9 @@ struct CustomTabBarContainerView<Content: View>: View {
     }
     
     var body: some View {
-        VStack(spacing: 0) {
-            ZStack {
-                content
-            }
+        ZStack(alignment: .bottom) {
+            content
+                .padding(.bottom, 60)
             
             CustomTabBarView(tabs: tabs, selection: $selection, localSelection: selection)
         }

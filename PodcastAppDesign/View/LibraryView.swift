@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LibraryView: View {
     @StateObject var viewModel = LibraryViewModel()
+    @State var contentSize: CGSize = .zero
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -26,7 +27,15 @@ struct LibraryView: View {
                             RecentlyPlayedCard(recentPodcast: recentPodcast)
                         }
                     }
+                    .overlay(
+                        GeometryReader { geo in
+                            Color.clear.onAppear {
+                                contentSize = geo.size
+                            }
+                        }
+                    )
                 }
+                .frame(maxHeight: contentSize.height)
             }
             .padding(.all, 20)
             .background(
@@ -34,7 +43,6 @@ struct LibraryView: View {
                     .fill(Color.theme.tabviewBackground)
             )
             .padding(.all, 30)
-            .frame(height: UIScreen.main.bounds.height / 2)
         }
         .preferredColorScheme(.dark)
     }

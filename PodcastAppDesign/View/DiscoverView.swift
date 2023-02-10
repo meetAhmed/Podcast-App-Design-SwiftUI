@@ -35,7 +35,7 @@ struct DiscoverView: View {
                     HStack {
                         ForEach(viewModel.categories, id: \.self) { category in
                             Text(category)
-                                .padding(.horizontal, 30)
+                                .padding(.horizontal, 15)
                                 .padding(.vertical, 10)
                                 .background(
                                     ZStack {

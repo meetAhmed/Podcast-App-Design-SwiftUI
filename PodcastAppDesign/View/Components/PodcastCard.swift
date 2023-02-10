@@ -16,7 +16,7 @@ struct PodcastCard: View {
             Image(podcast.image)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 180, height: 160)
+                .frame(width: cardWidth, height: cardWidth)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .background(
                     RoundedRectangle(cornerRadius: 10)
@@ -40,5 +40,11 @@ struct PodcastCard_Previews: PreviewProvider {
             PodcastCard(podcast: PodcastService.instance.data[2])
             PodcastCard(podcast: PodcastService.instance.data[3])
         }
+    }
+}
+
+private extension PodcastCard {
+    var cardWidth: CGFloat {
+        UIScreen.main.bounds.width * 0.45
     }
 }

@@ -32,14 +32,14 @@
 		F19347AD299366BB00CC72D7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347AC299366BB00CC72D7 /* Color.swift */; };
 		F19347B02993679200CC72D7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347AF2993679200CC72D7 /* Theme.swift */; };
 		F19347B229936C8200CC72D7 /* RectangleWithTopCornersOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347B129936C8200CC72D7 /* RectangleWithTopCornersOnly.swift */; };
-		F19347B829936D2700CC72D7 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B429936D2600CC72D7 /* Poppins-Light.ttf */; };
-		F19347B929936D2700CC72D7 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B529936D2600CC72D7 /* Poppins-Medium.ttf */; };
-		F19347BA29936D2700CC72D7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B629936D2600CC72D7 /* Poppins-Bold.ttf */; };
-		F19347BB29936D2700CC72D7 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B729936D2700CC72D7 /* Poppins-Black.ttf */; };
 		F19347BE29936DAC00CC72D7 /* Poppins.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347BD29936DAC00CC72D7 /* Poppins.swift */; };
 		F19347C029936DD800CC72D7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347BF29936DD800CC72D7 /* View.swift */; };
 		F19347C229936E8F00CC72D7 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347C129936E8F00CC72D7 /* Onboarding.swift */; };
 		F19347C429936EBD00CC72D7 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347C329936EBD00CC72D7 /* OnboardingService.swift */; };
+		F1D5ECF529961BC900EDCFD7 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1D5ECF129961BC800EDCFD7 /* Poppins-Medium.ttf */; };
+		F1D5ECF629961BC900EDCFD7 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1D5ECF229961BC800EDCFD7 /* Poppins-Light.ttf */; };
+		F1D5ECF729961BC900EDCFD7 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1D5ECF329961BC900EDCFD7 /* Poppins-Black.ttf */; };
+		F1D5ECF829961BC900EDCFD7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1D5ECF429961BC900EDCFD7 /* Poppins-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,15 +69,15 @@
 		F19347AC299366BB00CC72D7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F19347AF2993679200CC72D7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F19347B129936C8200CC72D7 /* RectangleWithTopCornersOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleWithTopCornersOnly.swift; sourceTree = "<group>"; };
-		F19347B429936D2600CC72D7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
-		F19347B529936D2600CC72D7 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		F19347B629936D2600CC72D7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		F19347B729936D2700CC72D7 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
 		F19347BC29936D5C00CC72D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F19347BD29936DAC00CC72D7 /* Poppins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poppins.swift; sourceTree = "<group>"; };
 		F19347BF29936DD800CC72D7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		F19347C129936E8F00CC72D7 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		F19347C329936EBD00CC72D7 /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		F1D5ECF129961BC800EDCFD7 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F1D5ECF229961BC800EDCFD7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		F1D5ECF329961BC900EDCFD7 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		F1D5ECF429961BC900EDCFD7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,10 +228,10 @@
 		F19347B329936D0200CC72D7 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				F19347B729936D2700CC72D7 /* Poppins-Black.ttf */,
-				F19347B629936D2600CC72D7 /* Poppins-Bold.ttf */,
-				F19347B429936D2600CC72D7 /* Poppins-Light.ttf */,
-				F19347B529936D2600CC72D7 /* Poppins-Medium.ttf */,
+				F1D5ECF329961BC900EDCFD7 /* Poppins-Black.ttf */,
+				F1D5ECF429961BC900EDCFD7 /* Poppins-Bold.ttf */,
+				F1D5ECF229961BC800EDCFD7 /* Poppins-Light.ttf */,
+				F1D5ECF129961BC800EDCFD7 /* Poppins-Medium.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -294,11 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19347BB29936D2700CC72D7 /* Poppins-Black.ttf in Resources */,
+				F1D5ECF529961BC900EDCFD7 /* Poppins-Medium.ttf in Resources */,
+				F1D5ECF629961BC900EDCFD7 /* Poppins-Light.ttf in Resources */,
+				F1D5ECF729961BC900EDCFD7 /* Poppins-Black.ttf in Resources */,
+				F1D5ECF829961BC900EDCFD7 /* Poppins-Bold.ttf in Resources */,
 				F193479B2993650200CC72D7 /* Preview Assets.xcassets in Resources */,
-				F19347B929936D2700CC72D7 /* Poppins-Medium.ttf in Resources */,
-				F19347BA29936D2700CC72D7 /* Poppins-Bold.ttf in Resources */,
-				F19347B829936D2700CC72D7 /* Poppins-Light.ttf in Resources */,
 				F19347982993650200CC72D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +469,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PodcastAppDesign/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Podkes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -500,6 +501,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PodcastAppDesign/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Podkes;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

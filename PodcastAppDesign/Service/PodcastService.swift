@@ -12,8 +12,8 @@ class PodcastService {
     private init() {}
     
     let data = [
-        Podcast(image: "Person9", background: .theme.yellow, title: "Deep Cover: Never Seen Again.", author: "Denny Kulon"),
-        Podcast(image: "Person8", background: .theme.yellow, title: "Deep Cover: Never Seen Again.", author: "Denny Kulon"),
+        Podcast(image: "Person9", background: .theme.yellow, title: "The Guardian Books podcast.", author: "Grace Dent"),
+        Podcast(image: "Person8", background: .theme.yellow, title: "From diseases to memes, How things spread?", author: "Denny Kulon"),
         Podcast(image: "Person5", background: .blue, title: "How Dolly Parton led me to an epiphany.", author: "Abumenyang"),
         Podcast(image: "Person6", background: .theme.orange, title: "New Heights with Jason and Travis Kelce.", author: "Tir McDohl"),
         Podcast(image: "Person7", background: .theme.yellow, title: "Deep Cover: Never Seen Again.", author: "Denny Kulon"),

@@ -15,7 +15,7 @@ enum TabBarItem: Hashable {
         case .home:
             return "house.fill"
         case .favorite:
-            return "photo.stack"
+            return "headphones"
         case .profile:
             return "person.fill"
         }
