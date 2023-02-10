@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F14C61242994D9430089E00B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C61232994D9430089E00B /* LibraryView.swift */; };
+		F14C61262994D9570089E00B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C61252994D9570089E00B /* ProfileView.swift */; };
+		F14C61282994DA160089E00B /* RecentlyPlayedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C61272994DA160089E00B /* RecentlyPlayedCard.swift */; };
+		F14C612C2994E1A80089E00B /* RecentPodcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C612B2994E1A80089E00B /* RecentPodcast.swift */; };
+		F14C612E2994E2490089E00B /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C612D2994E2490089E00B /* LibraryViewModel.swift */; };
+		F16B338929937305001B817E /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B338829937305001B817E /* OnBoardingScreen.swift */; };
+		F16B338B2993733E001B817E /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B338A2993733E001B817E /* PreviewProvider.swift */; };
+		F16B338D29937452001B817E /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B338C29937452001B817E /* OnboardingViewModel.swift */; };
+		F16B33A029938B38001B817E /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B339F29938B38001B817E /* CustomTabBarView.swift */; };
+		F16B33A229938B4E001B817E /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33A129938B4E001B817E /* CustomTabBarContainerView.swift */; };
+		F16B33A429938B5F001B817E /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33A329938B5F001B817E /* TabBarItemsPreferenceKey.swift */; };
+		F16B33A629938B6E001B817E /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33A529938B6E001B817E /* TabBarItem.swift */; };
+		F16B33A829939295001B817E /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33A729939295001B817E /* DiscoverView.swift */; };
+		F16B33AA2993934F001B817E /* PodcastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33A92993934F001B817E /* PodcastCard.swift */; };
+		F16B33AC2993A958001B817E /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33AB2993A958001B817E /* Podcast.swift */; };
+		F16B33AE2993A984001B817E /* PodcastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33AD2993A984001B817E /* PodcastService.swift */; };
+		F16B33B02993AA2F001B817E /* DiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B33AF2993AA2F001B817E /* DiscoverViewModel.swift */; };
+		F19347942993650000CC72D7 /* PodcastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347932993650000CC72D7 /* PodcastApp.swift */; };
+		F19347982993650200CC72D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19347972993650200CC72D7 /* Assets.xcassets */; };
+		F193479B2993650200CC72D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F193479A2993650200CC72D7 /* Preview Assets.xcassets */; };
+		F19347A9299365CC00CC72D7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347A8299365CC00CC72D7 /* OnboardingView.swift */; };
+		F19347AB2993664100CC72D7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347AA2993664100CC72D7 /* HomeView.swift */; };
+		F19347AD299366BB00CC72D7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347AC299366BB00CC72D7 /* Color.swift */; };
+		F19347B02993679200CC72D7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347AF2993679200CC72D7 /* Theme.swift */; };
+		F19347B229936C8200CC72D7 /* RectangleWithTopCornersOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347B129936C8200CC72D7 /* RectangleWithTopCornersOnly.swift */; };
+		F19347B829936D2700CC72D7 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B429936D2600CC72D7 /* Poppins-Light.ttf */; };
+		F19347B929936D2700CC72D7 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B529936D2600CC72D7 /* Poppins-Medium.ttf */; };
+		F19347BA29936D2700CC72D7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B629936D2600CC72D7 /* Poppins-Bold.ttf */; };
+		F19347BB29936D2700CC72D7 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F19347B729936D2700CC72D7 /* Poppins-Black.ttf */; };
+		F19347BE29936DAC00CC72D7 /* Poppins.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347BD29936DAC00CC72D7 /* Poppins.swift */; };
+		F19347C029936DD800CC72D7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347BF29936DD800CC72D7 /* View.swift */; };
+		F19347C229936E8F00CC72D7 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347C129936E8F00CC72D7 /* Onboarding.swift */; };
+		F19347C429936EBD00CC72D7 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19347C329936EBD00CC72D7 /* OnboardingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F14C61232994D9430089E00B /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F14C61252994D9570089E00B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F14C61272994DA160089E00B /* RecentlyPlayedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedCard.swift; sourceTree = "<group>"; };
+		F14C612B2994E1A80089E00B /* RecentPodcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentPodcast.swift; sourceTree = "<group>"; };
+		F14C612D2994E2490089E00B /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		F16B338829937305001B817E /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		F16B338A2993733E001B817E /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		F16B338C29937452001B817E /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		F16B339F29938B38001B817E /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		F16B33A129938B4E001B817E /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		F16B33A329938B5F001B817E /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		F16B33A529938B6E001B817E /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		F16B33A729939295001B817E /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		F16B33A92993934F001B817E /* PodcastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCard.swift; sourceTree = "<group>"; };
+		F16B33AB2993A958001B817E /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		F16B33AD2993A984001B817E /* PodcastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastService.swift; sourceTree = "<group>"; };
+		F16B33AF2993AA2F001B817E /* DiscoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewModel.swift; sourceTree = "<group>"; };
+		F19347902993650000CC72D7 /* PodcastAppDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastAppDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19347932993650000CC72D7 /* PodcastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastApp.swift; sourceTree = "<group>"; };
+		F19347972993650200CC72D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F193479A2993650200CC72D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F19347A8299365CC00CC72D7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F19347AA2993664100CC72D7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F19347AC299366BB00CC72D7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F19347AF2993679200CC72D7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F19347B129936C8200CC72D7 /* RectangleWithTopCornersOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleWithTopCornersOnly.swift; sourceTree = "<group>"; };
+		F19347B429936D2600CC72D7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		F19347B529936D2600CC72D7 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F19347B629936D2600CC72D7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F19347B729936D2700CC72D7 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../../MoviesApp/MoviesApp/Fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		F19347BC29936D5C00CC72D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F19347BD29936DAC00CC72D7 /* Poppins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poppins.swift; sourceTree = "<group>"; };
+		F19347BF29936DD800CC72D7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F19347C129936E8F00CC72D7 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		F19347C329936EBD00CC72D7 /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F193478D2993650000CC72D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16B338E29938A02001B817E /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				F16B339F29938B38001B817E /* CustomTabBarView.swift */,
+				F16B33A129938B4E001B817E /* CustomTabBarContainerView.swift */,
+				F16B33A329938B5F001B817E /* TabBarItemsPreferenceKey.swift */,
+				F16B33A529938B6E001B817E /* TabBarItem.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
+		F19347872993650000CC72D7 = {
+			isa = PBXGroup;
+			children = (
+				F19347922993650000CC72D7 /* PodcastAppDesign */,
+				F19347912993650000CC72D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F19347912993650000CC72D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19347902993650000CC72D7 /* PodcastAppDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19347922993650000CC72D7 /* PodcastAppDesign */ = {
+			isa = PBXGroup;
+			children = (
+				F19347BC29936D5C00CC72D7 /* Info.plist */,
+				F19347B329936D0200CC72D7 /* Font */,
+				F19347A62993658300CC72D7 /* Extension */,
+				F19347A22993657200CC72D7 /* View */,
+				F19347A42993657A00CC72D7 /* ViewModel */,
+				F19347A32993657600CC72D7 /* Model */,
+				F19347A52993657F00CC72D7 /* Service */,
+				F19347AE2993678100CC72D7 /* Utilities */,
+				F19347A12993656200CC72D7 /* Supporting Files */,
+			);
+			path = PodcastAppDesign;
+			sourceTree = "<group>";
+		};
+		F19347992993650200CC72D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F193479A2993650200CC72D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F19347A12993656200CC72D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F19347932993650000CC72D7 /* PodcastApp.swift */,
+				F19347972993650200CC72D7 /* Assets.xcassets */,
+				F19347992993650200CC72D7 /* Preview Content */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F19347A22993657200CC72D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F19347A8299365CC00CC72D7 /* OnboardingView.swift */,
+				F19347AA2993664100CC72D7 /* HomeView.swift */,
+				F16B33A729939295001B817E /* DiscoverView.swift */,
+				F14C61232994D9430089E00B /* LibraryView.swift */,
+				F14C61252994D9570089E00B /* ProfileView.swift */,
+				F19347A72993659400CC72D7 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F19347A32993657600CC72D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F19347C129936E8F00CC72D7 /* Onboarding.swift */,
+				F16B33AB2993A958001B817E /* Podcast.swift */,
+				F14C612B2994E1A80089E00B /* RecentPodcast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F19347A42993657A00CC72D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F16B338C29937452001B817E /* OnboardingViewModel.swift */,
+				F16B33AF2993AA2F001B817E /* DiscoverViewModel.swift */,
+				F14C612D2994E2490089E00B /* LibraryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F19347A52993657F00CC72D7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F19347C329936EBD00CC72D7 /* OnboardingService.swift */,
+				F16B33AD2993A984001B817E /* PodcastService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F19347A62993658300CC72D7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F19347AC299366BB00CC72D7 /* Color.swift */,
+				F19347BF29936DD800CC72D7 /* View.swift */,
+				F16B338A2993733E001B817E /* PreviewProvider.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F19347A72993659400CC72D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F16B338829937305001B817E /* OnBoardingScreen.swift */,
+				F16B33A92993934F001B817E /* PodcastCard.swift */,
+				F14C61272994DA160089E00B /* RecentlyPlayedCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F19347AE2993678100CC72D7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F16B338E29938A02001B817E /* CustomTabView */,
+				F19347AF2993679200CC72D7 /* Theme.swift */,
+				F19347B129936C8200CC72D7 /* RectangleWithTopCornersOnly.swift */,
+				F19347BD29936DAC00CC72D7 /* Poppins.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F19347B329936D0200CC72D7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F19347B729936D2700CC72D7 /* Poppins-Black.ttf */,
+				F19347B629936D2600CC72D7 /* Poppins-Bold.ttf */,
+				F19347B429936D2600CC72D7 /* Poppins-Light.ttf */,
+				F19347B529936D2600CC72D7 /* Poppins-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F193478F2993650000CC72D7 /* PodcastAppDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F193479E2993650200CC72D7 /* Build configuration list for PBXNativeTarget "PodcastAppDesign" */;
+			buildPhases = (
+				F193478C2993650000CC72D7 /* Sources */,
+				F193478D2993650000CC72D7 /* Frameworks */,
+				F193478E2993650000CC72D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodcastAppDesign;
+			productName = PodcastAppDesign;
+			productReference = F19347902993650000CC72D7 /* PodcastAppDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19347882993650000CC72D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F193478F2993650000CC72D7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F193478B2993650000CC72D7 /* Build configuration list for PBXProject "PodcastAppDesign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19347872993650000CC72D7;
+			productRefGroup = F19347912993650000CC72D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F193478F2993650000CC72D7 /* PodcastAppDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F193478E2993650000CC72D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19347BB29936D2700CC72D7 /* Poppins-Black.ttf in Resources */,
+				F193479B2993650200CC72D7 /* Preview Assets.xcassets in Resources */,
+				F19347B929936D2700CC72D7 /* Poppins-Medium.ttf in Resources */,
+				F19347BA29936D2700CC72D7 /* Poppins-Bold.ttf in Resources */,
+				F19347B829936D2700CC72D7 /* Poppins-Light.ttf in Resources */,
+				F19347982993650200CC72D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F193478C2993650000CC72D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19347C229936E8F00CC72D7 /* Onboarding.swift in Sources */,
+				F16B33B02993AA2F001B817E /* DiscoverViewModel.swift in Sources */,
+				F16B338B2993733E001B817E /* PreviewProvider.swift in Sources */,
+				F14C61242994D9430089E00B /* LibraryView.swift in Sources */,
+				F19347C029936DD800CC72D7 /* View.swift in Sources */,
+				F19347AB2993664100CC72D7 /* HomeView.swift in Sources */,
+				F16B33A229938B4E001B817E /* CustomTabBarContainerView.swift in Sources */,
+				F14C612E2994E2490089E00B /* LibraryViewModel.swift in Sources */,
+				F14C612C2994E1A80089E00B /* RecentPodcast.swift in Sources */,
+				F16B33A829939295001B817E /* DiscoverView.swift in Sources */,
+				F19347AD299366BB00CC72D7 /* Color.swift in Sources */,
+				F16B33AA2993934F001B817E /* PodcastCard.swift in Sources */,
+				F19347C429936EBD00CC72D7 /* OnboardingService.swift in Sources */,
+				F16B338D29937452001B817E /* OnboardingViewModel.swift in Sources */,
+				F16B33A629938B6E001B817E /* TabBarItem.swift in Sources */,
+				F16B33AE2993A984001B817E /* PodcastService.swift in Sources */,
+				F16B33A029938B38001B817E /* CustomTabBarView.swift in Sources */,
+				F19347B229936C8200CC72D7 /* RectangleWithTopCornersOnly.swift in Sources */,
+				F14C61262994D9570089E00B /* ProfileView.swift in Sources */,
+				F19347B02993679200CC72D7 /* Theme.swift in Sources */,
+				F16B33AC2993A958001B817E /* Podcast.swift in Sources */,
+				F19347942993650000CC72D7 /* PodcastApp.swift in Sources */,
+				F14C61282994DA160089E00B /* RecentlyPlayedCard.swift in Sources */,
+				F19347BE29936DAC00CC72D7 /* Poppins.swift in Sources */,
+				F16B338929937305001B817E /* OnBoardingScreen.swift in Sources */,
+				F19347A9299365CC00CC72D7 /* OnboardingView.swift in Sources */,
+				F16B33A429938B5F001B817E /* TabBarItemsPreferenceKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F193479C2993650200CC72D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F193479D2993650200CC72D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F193479F2993650200CC72D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PodcastAppDesign/Supporting Files/Preview Content\"";
+				DEVELOPMENT_TEAM = U3QLWV6K6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastAppDesign/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aali.PodcastAppDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19347A02993650200CC72D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PodcastAppDesign/Supporting Files/Preview Content\"";
+				DEVELOPMENT_TEAM = U3QLWV6K6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastAppDesign/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aali.PodcastAppDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F193478B2993650000CC72D7 /* Build configuration list for PBXProject "PodcastAppDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F193479C2993650200CC72D7 /* Debug */,
+				F193479D2993650200CC72D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F193479E2993650200CC72D7 /* Build configuration list for PBXNativeTarget "PodcastAppDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F193479F2993650200CC72D7 /* Debug */,
+				F19347A02993650200CC72D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19347882993650000CC72D7 /* Project object */;
+}
